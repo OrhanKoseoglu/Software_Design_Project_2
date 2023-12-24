@@ -3,7 +3,7 @@
 #include "Renderer.h"
 #include "ShaderManager.h"
 #include "TextureManager.h"
-#include "Camera.h"
+//#include "Camera.h" Bu projemizde kamera kullanýlmayacaðý için bunu yorum satýrýna aldýk.
 
 int main(int argc, char* argv[]) {
     // Initialize SDL with video (and optionally other subsystems)
@@ -32,7 +32,7 @@ int main(int argc, char* argv[]) {
     // Initialize other components like ShaderManager, TextureManager, Camera
     ShaderManager shaderManager;
     TextureManager textureManager;
-    Camera camera;
+    //Camera camera; Bu projemizde kamera kullanýlmayacaðý için bunu yorum satýrýna aldýk.
 
     // Main game loop
     bool running = true;
